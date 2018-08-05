@@ -1,0 +1,127 @@
+body{
+  
+}
+.main-content{
+  color: #565051;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+  background: #fdfdfe;
+
+  margin: 20px auto;
+  /* border: solid 1px black; */
+  border-radius: 6px;
+  min-height: 670px;
+  max-width: 400px;
+  box-shadow: 3px 4px 15px rgba(157,157,157, .5);
+  
+}
+
+.wrapper{
+  margin: 10px;
+  min-height: 500px;
+  padding: 10px;
+  overflow-x: hidden;
+  
+}
+
+.header{
+  width: 250px;
+  display: flex;
+  margin: 10px auto 0 auto;
+  text-align: center;
+  
+} 
+
+.header > h1 {
+  font-size: 2em;
+  margin: auto;
+}
+
+.header > h3 {
+  /* float: right; */
+  /* position: absolute; */
+}
+
+.flash{
+  color: red;
+  font-size: 0.7em;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 2px;;
+  position: absolute;
+}
+
+.input-field{
+  margin-top: 25px;
+  width: 100%;
+
+  
+}
+.input-field > input {
+  border-radius: 25px;
+  border-style: none;
+  padding-left: 20px;
+  height: 35px;
+  width: 86%;
+  box-shadow: 3px 4px 10px rgba(157,157,157, .4);
+}
+
+.input-field > a {
+  width: 5%;
+  height: 35px;
+  
+  /* position: absolute; */
+  border-radius: 25px;
+  /* border-style: solid; */
+  /* border: 0.5px solid grey;  */
+  margin-left: 6px;
+  padding: 7px 9px;
+  background-color: #42d6b2;
+  color: white !important;
+  box-shadow: 3px 4px 10px rgba(157,157,157, .5);
+}
+
+.list-items{
+  /* margin-top: 20px; */
+  width: 108%;
+  max-height: 515px;
+  overflow-y: scroll;
+  padding-right: 13px;
+  
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  height: 35px;
+  margin: 16px 0;
+  justify-content: space-between;
+  border-radius: 25px;
+  box-shadow: 3px 4px 10px rgba(157,157,157, .5);
+  
+
+}
+
+.item > p {
+  margin: auto 0;
+  padding-left: 25px;
+}
+
+.item > button {
+  border-radius: 22px;
+  /* border-style: solid; */
+  /* border: 0.5px solid grey; */
+  /* margin-left: 8px; */
+  padding: 2px 7px 1px 7px;
+  background-color: #f35555;
+  color: white !important;
+  border: none;
+  box-shadow: 2px 3px 8px rgba(157,157,157, .7);
+  height: 24px;
+  
+  margin: 5px 10px auto 0;
+}
+
+.fa-trash-alt{
+  font-size: 13px;
+}
