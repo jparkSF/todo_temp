@@ -1,6 +1,6 @@
 Todo App Template
 
-Live Demo: https://jparksf.github.io/todo_temp/.
+Live Demo: https://jparksf.github.io/todo_temp/todo.html
 
 1. clear input text field onClick 
 2. prevent empty input entry
